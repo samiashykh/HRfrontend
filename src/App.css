@@ -1,0 +1,670 @@
+.App {
+  text-align: center;
+  
+}
+
+body {
+
+  font-family: "Lato", sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+ 
+  font-size: 17px;
+  padding: 0;
+}
+.em{
+  margin-top: -20px;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.login {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.HR{
+  font-family: 'Righteous', cursive;
+  font-size: 30px;
+}
+
+.wrapper {
+  width: 40%;
+  padding: 30px;
+   margin-top: 50px;
+  height: 70%;
+  box-shadow: 0px 5px 33px -21px rgba(66, 68, 90, 1);
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+.wrapper2 {
+  width:30%;
+  padding: 20px;
+ margin-top: 50px;
+ 
+  box-shadow: 0px 5px 33px -21px rgba(66, 68, 90, 1);
+  display: flex;
+  align-items: center;
+  border-radius: 20px;}
+
+
+
+.SignInp{
+  width: 250px;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+}
+.Regg{
+  margin-top: -2px;
+}
+.SubmitInp{
+ 
+  padding: 10px;
+  width: 150px;
+  background-color: rgb(50, 49, 49);
+   color: white;
+  
+  border: 1px solid black;
+  padding: 12px;
+  border-radius: 9px;
+}
+input{
+  width: 50%;
+  padding: 8px 8px;
+  margin-bottom: 5px;
+  border-radius: 6px;
+}
+.submit{
+  margin:5px;
+  width: 35%;
+  background-color: rgb(4, 4, 4);
+   color: white;
+  
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 9px;
+}
+.FormContent{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main{
+  height: 100%;
+  display: flex;
+  background-color: white;
+}
+/*--Side-bar--*/
+.SideBar {
+  width: 16.5%;
+  background-color: rgb(238, 238, 238);
+  position: fixed;
+  height: 100%;
+  top: 67px;
+  border-radius: 10px;
+  /* border: outset 1px; 
+ 
+  box-shadow: ; */
+ 
+  border-right: 2px solid rgba(108, 117, 125, 0.25);
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding: 12px 25px;
+}
+.nav-link span {
+  margin-left: 15px;
+  font-size: 15px;
+}
+.nav-link:hover {
+  background: #e5e5e5;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.record{
+font-family: 'Righteous', cursive;
+text-align: center;
+}
+.Content {
+
+  
+  text-align: center;
+align-items: center;
+justify-content: center;
+position:static;
+  background-color: white;
+  width: fit-content;
+  height: 100%;
+  margin-top: 80px;
+  margin-left: 260px;
+  
+}
+
+.HRMS{
+  width: 850px;
+  height: 350px;
+}
+
+.up{
+  margin-left: 40px;;
+  display: flex;
+position: fixed;
+  flex-wrap: wrap;
+  
+}
+.down{
+
+  position: fixed;
+  margin-top: 160px;
+  margin-left: 20px;
+ width: 70%;;
+
+}
+
+.box{
+	width: 85%;
+	height: 100px;
+	margin-left: 10px;
+	padding:10px;
+  display: flex;
+}
+.box p span{
+	 font-size: 35px;
+    font-weight: bold;
+    line-height: 30px;
+   
+    margin-top: 10px;
+    display: inline-block;
+}
+.box p{
+  font-size: 35px;
+   font-weight: bold;
+   line-height: 30px;
+  
+   margin-top: 10px;
+   display: inline-block;
+}
+
+.BoxImgE{
+  height: 50px;
+  width: 60px;
+
+}
+.BoxImgD{
+  height: 100px;
+  width: 110px;
+
+}
+.BoxImgR{
+  height: 80px;
+  width: 110px;
+
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.UserCreadentialsBase {
+  margin-top: 10rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.usercredentialButtons {
+  /* border-style: none;
+  padding: 1%;
+  margin: 0.5rem 0.8rem;  
+  color: white;
+  font-size: 17px;
+  border-radius: 0.5rem;
+ 
+  box-shadow: 1.5px 4px 2px 2px rgba(112, 111, 111, 0.8);
+  background-color: rgb(76, 96, 182); */
+  cursor: pointer;
+  width: 20%;
+}
+
+
+
+.Box{
+ 
+  text-align: center;
+}
+
+.card {
+  
+
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  background-color: white;
+  border-radius: 4px;
+ margin: 10px;
+ padding: 5px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+.EmployeeImg{
+  height:60px;
+  width: 60px;
+
+}
+.DashboardImage{
+width: 400px;
+height: 140px;
+}
+
+
+.DashboardTitle{
+margin-left: 250px;
+margin-bottom: 50px;
+}
+
+
+.dashboardmaindivP {
+  width: 100%;
+  display: flex;
+  height: fit-content;
+  justify-content: space-between;
+  align-items: center;
+  height: 2rem;
+  margin-top: 0.8rem;
+}
+
+.dashboardmaindivPS {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 0.5rem;
+}
+
+.dashboardmaindivPF {
+  width: 50%;
+  display: flex;
+  padding-left: 1rem;
+}
+
+.dashboardmaindivPSItem {
+  width: fit-content;
+  margin: 0rem 0.5rem;
+}
+
+.dashboardmaindivPSItemButton {
+  width: fit-content;
+  border-radius: 0.3rem;
+  border: none;
+  font-size: 15px;
+  padding: 0.3rem 0.5rem;
+  background-color: #d6dce7;
+  display: flex;
+  align-items: center;
+}
+
+.dashboardmaindivPSItemButton:hover {
+  background-color: #6987ba;
+}
+
+.Dash {
+  height: 5rem;
+  width: 20%;
+}
+
+.dashboardmaindiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.dashboardmaindivF,
+.dashboardmaindivS {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0rem;
+}
+
+.dashboardmaindivF {
+  margin-left: 0.5rem;
+}
+
+.dashboardmaindivS {
+  margin-right: 0.5rem;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper1 {
+  margin-top: 0.5rem;
+  display: flex;
+}
+
+.Intro {
+  width: 30%;
+  height: fit-content;
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+
+
+}
+
+.Introimg {
+  width: 85%;
+  border-radius: 10%;
+  box-shadow: 4px -5px 5px #2684ff;
+}
+
+
+.ActivityProject {
+  width: 40px;
+  height: 40px;
+  border-radius: 5rem;
+  margin-right: 10px;
+  background-color: #6987ba;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ProjectName {
+  width: 50%;
+  height: fit-content;
+  font-weight: 500;
+}
+
+.ProjectLead {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ProjectDetails {
+  width: 50%;
+  height: fit-content;
+
+}
+
+.ComapnyName {
+  width: 100%;
+  height: fit-content;
+  font-weight: 500;
+}
+
+.ProjectIcons {
+  width: 50%;
+  height: fit-content;
+  display: flex;
+  justify-content: end;
+}
+
+
+.dashboardmaindivFSubA,
+.dashboardmaindivFSubB,
+.dashboardmaindivSSubA,
+.dashboardmaindivSSubB {
+  width: 95%;
+  padding: 1rem;
+  border: 1px solid;
+  border-color: aquamarine;
+  padding: 10px;
+  border-radius: 0.2rem;
+  margin: 0.5rem;
+  box-shadow: 0px -3px #2684ff;
+}
+
+.dashboadH3 {
+  margin-left: 1.5rem;
+}
+
+.NavCom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.NavF {
+  width: 40%;
+}
+
+.NavS {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.NacIcon {
+  margin: 0.2rem;
+}
+
+.h5 {
+  display: inline;
+  font-size: 0.83em;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.GitHubNavBarTMost {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+.Logo{
+  width: 200px;
+  height: 70px;
+  margin-left: -90px;
+}
+
+
+.user {
+  width: 60px;
+  height: 50px;
+  margin: 0rem 0.5rem;
+}
+
+.usercredentialInput {
+  margin: 0rem 0.6rem;
+  border-style: double;
+  height: 1.2rem;
+  width: 32%;
+  color: black;
+  background-color: transparent;
+  border-radius: 0.4rem;
+}
+
+.usercredentialInput:hover {
+  border-style: groove;
+  border: 0.5rem;
+  box-shadow: 0.5px 1.5px 7.5px rgb(0 86 255 / 90%);
+}
+
+.usercredentialInput:focus-visible {
+  outline: transparent;
+  padding-left: 0.3rem;
+}
+
+.UserName {
+  margin-top: 23px;
+}
+
+.SearchBtn {
+  color: #e4eaea;
+  background-color: black;
+  height: 30px;
+ 
+  width: fit-content;
+  
+  /* border: none; */
+  border-radius: 0.2rem;
+
+}
+
+.GitHubNavBarS {
+  /* width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; */
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.displayEmail {
+  position: relative;
+  width: auto;
+  z-index: -1;
+  top: -35.3rem;
+  left: 36rem;
+}
+.abc{
+  margin-top: 30px;
+  width: 100%;
+}
+
+td, th{
+  padding: 10px;
+  width: 800px;
+}
+tr:nth-child(even){
+  background-color: #e2e2e2da; 
+}
+.head {
+  display: flex;
+  height: 30px;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(7, 8, 8, 0.2);
+  }
+.HRIS{
+  color: black;
+  margin-top: 20px;
+  margin-left: 70px;
+  
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  font-size:35px;
+}
+
+
+
+.apply_box {
+  max-width: 600px;
+  padding: 20px;
+  background-color: rgba(166, 163, 163, 0.818);
+  margin-left: 300px;
+
+  box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.form_container {
+  margin-top: 20px;
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.form_control {
+  display: flex;
+  flex-direction: column;
+}
+input,
+select,
+textarea {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+}
+.textarea_control {
+  grid-column: 1 / span 2;
+}
+.textarea_control textarea {
+  width: 90%;
+}
+
+.ApplyBtn {
+  text-align: center;
+  background-color: gray;
+  border: transparent solid 2px;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 8px;
+  transition: 0.3s ease-in;
+  margin-top: 20px;
+  margin-left: 40%;
+  font-size: medium;
+}
+button:hover {
+  background-color: #ccc;
+  border: 2px solid black;
+  color: black;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
